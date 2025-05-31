@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background: linear-gradient(135deg, #ffeef2, #fce1ec);
+  color: #333;
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: #ff6b9f;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+
+h3 {
+  color: #555;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.heart {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0;
+  animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.1); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.story {
+  background: #fff;
+  border: 3px dashed #ffb6c1;
+  border-radius: 25px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.1);
+  line-height: 1.9;
+  transition: transform 0.3s ease;
+}
+
+.story:hover {
+  transform: scale(1.01);
+  box-shadow: 0 12px 30px rgba(255, 105, 180, 0.15);
+}
+
+.story h2 {
+  color: #ff5d90;
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.highlight {
+  color: #ff3e6c;
+  font-weight: bold;
+  background: #fff0f4;
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #999;
+  font-size: 14px;
+  font-style: italic;
+}
